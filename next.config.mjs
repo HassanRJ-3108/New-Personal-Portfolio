@@ -12,10 +12,10 @@ const nextConfig = {
     mdxRs: true,
   },
   typescript: {
-    ignoreBuildErrors: true;
+    ignoreBuildErrors: true
   },
   eslint: {
-    ignoreDuringBuilds: true;
+    ignoreDuringBuilds: true
   },
 };
 
