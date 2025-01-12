@@ -17,7 +17,7 @@ export const socials = [
   },
   {
     href: "https://github.com/HassanRJ-3108",
-    label: "YouTube",
+    label: "Github",
     icon: IconBrandGithub,
   },
 ];
