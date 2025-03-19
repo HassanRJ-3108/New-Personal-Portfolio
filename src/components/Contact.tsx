@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Loader2 } from 'lucide-react';
-import Link from "next/link";
 
 type FormData = {
   name: string;
@@ -37,8 +36,8 @@ export const Contact = () => {
       setSubmitSuccess(true);
       reset();
     } catch (error) {
-      setSubmitError(`Failed to send message. Please try again later. Please contact the owner directly at ${<Link href="mailto:huzaifa3108hassan@gmail.com">huzaifa3108hassan@gmail.com</Link>}`);
-        } finally {
+      setSubmitError(`Failed to send message. Please try again later. Please contact the owner directly at `,);
+    } finally {
       setIsSubmitting(false);
     }
   };
