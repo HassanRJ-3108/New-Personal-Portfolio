@@ -36,7 +36,7 @@ export const Contact = () => {
       setSubmitSuccess(true);
       reset();
     } catch (error) {
-      setSubmitError(`Failed to send message. Please try again later. Please contact the owner directly at `,);
+      setSubmitError(`Failed to send message. Please try again later.`,);
     } finally {
       setIsSubmitting(false);
     }
